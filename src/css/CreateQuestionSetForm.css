@@ -1,0 +1,97 @@
+.question-set-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.question-set-container h1,
+.question-set-container h2 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.questions-section {
+  margin-top: 2rem;
+}
+
+.question-card {
+  background: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.question-input {
+  font-weight: 500;
+}
+
+.question-actions {
+  margin: 0.5rem 0;
+  text-align: right;
+}
+
+.choices-section {
+  padding-left: 1rem;
+  margin-top: 1rem;
+}
+
+.choice-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.choice-input {
+  flex: 1;
+}
+
+.add-btn {
+  margin-top: 1rem;
+  background: #1abc9c;
+  color: #fff;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.add-btn:hover {
+  background: #16a085;
+}
+
+.submit-btn {
+  margin-top: 2rem;
+  background: #3498db;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.submit-btn:hover {
+  background: #2980b9;
+}

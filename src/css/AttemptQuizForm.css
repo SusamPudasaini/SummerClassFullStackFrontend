@@ -1,0 +1,118 @@
+/* AttemptQuizForm.css */
+
+/* Container */
+.attempt-quiz-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+/* Form */
+.attempt-quiz-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Title input */
+.quiz-title-input label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.quiz-title-input input {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s ease-in-out;
+}
+.quiz-title-input input:focus {
+  border-color: #1abc9c;
+}
+
+/* Questions */
+.questions-container {
+  margin-top: 1rem;
+}
+.questions-heading {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.question-block {
+  padding: 1rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  background-color: #f9f9f9;
+}
+.question-text {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* Choices */
+.choices-container {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.choice-item {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+.choice-item input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #1abc9c;
+}
+.choice-text {
+  font-size: 1rem;
+}
+
+/* Submit Button */
+.submit-quiz-btn {
+  padding: 0.8rem 1.5rem;
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background 0.2s ease-in-out;
+}
+.submit-quiz-btn:hover {
+  background-color: #16a085;
+}
+
+/* Result */
+.quiz-result-container {
+  max-width: 600px;
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: #f1f8f5;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+.quiz-result-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1abc9c;
+  margin-bottom: 1rem;
+}
+.quiz-result-score {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
